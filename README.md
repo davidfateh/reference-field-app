@@ -1,4 +1,23 @@
-This project was bootstrapped with [Create Contentful App](https://github.com/contentful/create-contentful-app).
+# Custom Reference Field App
+
+This is an example app which shows how to create a custom
+[reference field](https://www.contentful.com/help/references/) inside
+of a Contentful entry. In this app, we remove the default reference field and
+replace the experience with a custom card
+UI using [Forma 36](https://f36.contentful.com/)
+as our component and layout library.
+![App UI](./assets/reference-app-ui.gif)
+
+## Understanding the code
+
+This app uses the [Create Contentful App](https://github.com/contentful/create-contentful-app) CLI tool to bootstrap the project.
+In it, we've focused on using the [field location](https://www.contentful.com/developers/docs/extensibility/app-framework/locations/#entry-field)
+by creating a React component which makes calls to the Contentful API using the
+[App SDK](https://www.contentful.com/developers/docs/extensibility/app-framework/sdk/).
+
+This app is based off a prototype we built on
+the Contentful developer [live stream](https://www.youtube.com/watch?v=UFMNO5ZXce0).
+![Livestream screenshot](./assets/livestream.png)
 
 ## Available Scripts
 
@@ -24,8 +43,8 @@ Your app is ready to be deployed!
 
 To make your app look and feel like Contentful use the following libraries:
 
-- [Forma 36](https://f36.contentful.com/) – Contentful's design system
-- [Contentful Field Editors](https://www.contentful.com/developers/docs/extensibility/field-editors/) – Contentful's field editor React components
+-   [Forma 36](https://f36.contentful.com/) – Contentful's design system
+-   [Contentful Field Editors](https://www.contentful.com/developers/docs/extensibility/field-editors/) – Contentful's field editor React components
 
 ## Learn More
 
